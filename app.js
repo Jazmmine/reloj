@@ -17,7 +17,7 @@ window.addEventListener("load", function() {
         var resultadoArgentina = document.getElementById("resultadoArgentina");
         resultadoArgentina.innerHTML = (hora+2) + " : " + minuto + " : " + segundo;
 
-           setTimeout(mueveReloj,1000) ;
+           setTimeout(mueveReloj,1000) ; //ejecuta una funcion despues de cierto tiempo//
     }
 
     function cero(i) {
